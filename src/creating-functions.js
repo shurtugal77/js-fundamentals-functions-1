@@ -11,8 +11,7 @@
 function addOneToNumber(number) {
   return number + 1
 }
-
-console.log(addOneToNumber(2))
+console.log(addOneToNumber(1))
 
 // 2. Define a function that capitalises any string
 
@@ -29,6 +28,8 @@ function stringToUppercase(myString) {
   return myString.toUpperCase()
 }
 console.log(stringToUppercase('mahBallz'))
+
+// only first letter?
 
 // 3. Define a function that takes any person's name and returns it with a smiley :)!
 // Remember to make the name capitalized!
@@ -66,8 +67,8 @@ console.log(stringToUppercase('mahBallz'))
 
 // TODO: change each undefined below to be the name of the functions you defined
 module.exports = {
-  a: undefined, // 1. change undefined to be the name of the function you defined for the first TODO
-  b: undefined, // 2. change undefined to be the name of the function you defined for the second TODO)
+  a: addOneToNumber, // 1. change undefined to be the name of the function you defined for the first TODO
+  b: stringToUppercase, // 2. change undefined to be the name of the function you defined for the second TODO)
   c: undefined, // etc
   d: undefined,
   e: undefined
