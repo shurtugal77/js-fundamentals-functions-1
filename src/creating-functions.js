@@ -8,6 +8,12 @@
 //
 // TODO: write code below
 
+function addOneToNumber(number) {
+  return number + 1
+}
+
+console.log(addOneToNumber(2))
+
 // 2. Define a function that capitalises any string
 
 // Example Input and Output:
@@ -18,6 +24,11 @@
 // Hello | Hello
 
 // TODO: write code below
+
+function stringToUppercase(myString) {
+  return myString.toUpperCase()
+}
+console.log(stringToUppercase('mahBallz'))
 
 // 3. Define a function that takes any person's name and returns it with a smiley :)!
 // Remember to make the name capitalized!
